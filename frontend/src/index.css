@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0015; color: #e2e8f0; font-family: 'Inter', sans-serif; }
+
+@media (max-width: 768px) {
+  .hide-mobile { display: none !important; }
+  .show-mobile { display: block !important; }
+}
+@media (min-width: 769px) {
+  .show-mobile { display: none !important; }
+  .hide-mobile { display: flex !important; }
+}
